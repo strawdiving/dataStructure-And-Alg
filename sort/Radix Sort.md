@@ -1,7 +1,8 @@
 ## 基数排序（Radix Sort）
+
 基数排序原理类似于桶排序。
 
-　　假设要对10个在0~999范围内的数排序。一般来说，这是在0~bp-1范围内的N个数，b是基底，p是某个常数 。显然不能使用桶排序，这样使用的桶太多了。诀窍在于使用几趟桶式排序。比较简单的做法是从最低有效位开始（LSD）。
+　　假设要对10个在0 ~ 999范围内的数排序。一般来说，这是在0 ~ b^p-1范围内的N个数，b是基底，p是某个常数 。显然不能使用桶排序，这样使用的桶太多了。诀窍在于使用几趟桶式排序。比较简单的做法是从最低有效位开始（LSD）。
 
 　　以b=10为例，这里只需要10个桶，多次使用。
 
@@ -21,7 +22,7 @@ eg.
 
 　　数组{362,214,259,88,116,234}
   
-  [!Alt]
+  ![装桶结果](https://github.com/strawdiving/dataStructure-And-Alg/blob/master/sort/imgs/radix.PNG)
   
   （从左至右依次是按个、十、百位数进行装桶的结果）
   
@@ -103,7 +104,7 @@ void radix_sort(vector<int> &a)
 }
   ```
   
-  // radix1.png
+   ![装桶结果](https://github.com/strawdiving/dataStructure-And-Alg/blob/master/sort/imgs/radix1.PNG)
   
   ```c++
   /**
