@@ -34,7 +34,7 @@ void bubbleSort(vector<int> &a)
 
 如果有N个数需要排序，只需要将N-1个数归位，即进行N-1趟操作。
 
-![bubble sort]()
+![bubble sort](https://github.com/strawdiving/dataStructure-And-Alg/blob/master/sort/imgs/bubble%20sort.png)
 
 **时间复杂度：**
 
