@@ -35,9 +35,9 @@
   
 2. **随机选取基准数**
 
-   安全，不会总发生劣质的分割。
+安全，不会总发生劣质的分割。
    
-   对绝大多数输入数据达到O(NlogN)的期望时间复杂度。
+对绝大多数输入数据达到O(NlogN)的期望时间复杂度。
   
 3. **三数中值分割法（Median-of-Three）**
 
@@ -110,7 +110,7 @@ int division(vector<int> &a, int left, int right)
      return left;
 }    
 ```
-![quick sort]()
+![quick sort](https://github.com/strawdiving/dataStructure-And-Alg/blob/master/sort/imgs/quick%20sort.png)
 
 - 使用三数中值分割法（Median-of-Three）
 ```c++

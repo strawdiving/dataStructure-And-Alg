@@ -95,11 +95,11 @@ eg. 原始数组 {24,15,1,26,13,27,2,28}
 
 拆分：
 
-![merge sort]()
+![merge sort](https://github.com/strawdiving/dataStructure-And-Alg/blob/master/sort/imgs/merge%20sort.png)
 
 合并：
 
-![merge sort1]()
+![merge sort1](https://github.com/strawdiving/dataStructure-And-Alg/blob/master/sort/imgs/merge%20sort1.png)
 
 **时间复杂度：**
 

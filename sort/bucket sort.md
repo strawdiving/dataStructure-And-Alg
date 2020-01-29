@@ -33,7 +33,7 @@ result[Ai]中存放的是Ai出现的次数；
 
 eg.  输入数组{1,4,5,3,7,8,4,9,6,5,0}，最大为9，另建一个大小为10的数组，初始化为全0。
 
-![bucket]()
+![bucket](https://github.com/strawdiving/dataStructure-And-Alg/blob/master/sort/imgs/bucket.png)
 
 读入数组：
 
@@ -49,7 +49,7 @@ eg.  输入数组{1,4,5,3,7,8,4,9,6,5,0}，最大为9，另建一个大小为10�
 
 得到结果：
 
-![bucket1]()
+![bucket1](https://github.com/strawdiving/dataStructure-And-Alg/blob/master/sort/imgs/bucket1.png)
 
 打印结果：
 

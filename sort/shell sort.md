@@ -41,7 +41,7 @@ void shellSort(vector<int> &a)
 
 3）直到hk为1时，再对全体元素进行一次直接插入排序（insertion sort）；
 
-![shell sort]()
+![shell sort](https://github.com/strawdiving/dataStructure-And-Alg/blob/master/sort/imgs/shell%20sort.png)
 
 待排数组为{34,8,64,51,32,21,5}，数组大小N=7，则增量序列为1，3。
 
